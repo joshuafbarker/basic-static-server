@@ -86,7 +86,7 @@ a.download:hover {
 }
 
 span.version {
-	padding-top: .75em;
+	padding: .75em 0;
 	color: #bcbcbc;
 }
 

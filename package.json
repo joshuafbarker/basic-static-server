@@ -1,0 +1,11 @@
+{
+  "name": "basic-static-server",
+  "version": "1.0.0",
+  "description": "basic static server for serving up a static website, built on node and express",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

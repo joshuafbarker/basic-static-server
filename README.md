@@ -17,6 +17,7 @@ Then, once you have the repo cloned, open up your terminal and navigate to the a
     cd your-directory-name && npm install
 
 Once all dependencies have been installed, you can start the server by running one of the following commands:
+
 *// start the server on the default port (3000)*
 
     npm start
@@ -32,7 +33,7 @@ Inside your directory you will find a folder called public. Inside this folder i
     
     📂 your-directory-name
         📂 node_modules
-        📂 **public**
+        📂 public
             📂 assets
             📂 css
             📂 js

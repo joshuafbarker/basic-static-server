@@ -5,7 +5,10 @@
   "scripts": {
     "start": "node server"
   },
-  "repository": "https://github.com/joshuafbarker/basic-static-server.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuafbarker/basic-static-server.git"
+  },
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",

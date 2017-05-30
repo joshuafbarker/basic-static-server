@@ -1,137 +1,33 @@
 /*
 	=====================================
-		Basic Static Server - Basic Styles
+		Basic Static Server - Statup Page Styles
 		Author: Joshua Barker | joshuafbarker@gmail.com | joshuabarker.com
 	=====================================
 */
 
+
+/*The JFB Reset*/
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 
+/*CSS Custom Properties a.k.a variables*/
+:root {
+	--base-font: monospace;
+	--heading-font: 'San Francisco',-apple-system,BlinkMacSystemFont,'.SFNSText-Regular',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+	--primary-color: tomato;
+	--dark-grey: #3d3d3d;
+	--medium-grey: #7d7d7d;
+	--grey: #bdbdbd;
+	--off-white: #efefef;
+}
+
+/*Base Body Styles*/
 body {
-	font-family: monospace;
-	color: #3d3d3d;
-	margin: 0;
-	line-height: 1;
+	font-family: var(--base-font);
 	font-size: 21px;
-}
-
-header {
-	padding: 6em 1em;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-bottom: 1px solid #efefef;
-}
-
-h1, h2, h4, h5, h6 {
-	font-family: 'San Francisco',-apple-system,BlinkMacSystemFont,'.SFNSText-Regular',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;;
-}
-
-h1 {
-	margin: 0;
-	font-size: 3em;
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: .05em;
-	text-align: center;
-}
-
-h3 {
-	font-size: 1.25em;
-	margin: 0;
-	padding-top: .75em;
-	font-weight: 200;
-	letter-spacing: .05em;
-	max-width: 30em;
-	text-align: center;
-	line-height: 1.35;
-}
-
-h4 {
-	font-size: 1.5em;
-	font-weight: 800;
-	margin: 0;
-}
-
-p {
-	margin-top: 0;
-	margin-bottom: 2em;
-}
-
-a {
-	color: tomato;
-	transition: all .2s ease;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a.download {
-	display: inline-block;
-	margin-top: 2em;
-	padding: .85em 1em;
-	border-radius: .15em;
-	background: tomato;
-	color: white;
-	text-decoration: none;
-}
-
-a.download:hover {
-	background: #e2573e;
-}
-
-span.version {
-	padding: .75em 0;
-	color: #bcbcbc;
-}
-
-ul {
-	margin: 0;
-	padding-bottom: 2em;
-}
-
-code {
-	background: #f7f7f7;
-	border: 1px solid #eaeaea;
-	color: #7d7d7d;
-	border-radius: .25em;
-	padding: 1.5em;
-	font-family: monospace;
-	font-size: .75em;
-	display: block;
-	margin-bottom: 2em;
-}
-
-code em {
-	font-size: .8em;
-	color: #bcbcbc;
-	display: block;
-}
-
-main {
-	margin: 0 auto;
-	max-width: 40em;
-	padding: 3em 1em;
+	font-weight: 300;
 	line-height: 1.5;
-}
-
-footer {
-	padding: 2em 1em;
-	border-top: 1px solid #efefef;
-}
-
-footer .content {
-	margin: 0 auto;
-	max-width: 40em;
-	text-align: center;
-}
-
-footer .content p {
-	margin-bottom: 0;
-	padding: .25em;
 }
